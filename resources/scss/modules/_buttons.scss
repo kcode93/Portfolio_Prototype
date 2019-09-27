@@ -15,7 +15,7 @@
   }
 
   &.btn-primary {
-    @include set-background($primary-color);
+    //@include set-background($primary-color);
     border: 1px solid $primary-color;
     &:hover {
       background-color: lighten($primary-color, 5%);
@@ -23,7 +23,7 @@
   }
 
   &.btn-dark {
-    @include set-background($dark-color);
+    //@include set-background($dark-color);
     border: 1px solid $dark-color;
     &:hover {
       background-color: lighten($dark-color, 10%);
@@ -31,7 +31,7 @@
   }
 
   &.btn-success {
-    @include set-background($success-color);
+    //@include set-background($success-color);
     border: 1px solid $success-color;
     &:hover {
       background-color: lighten($success-color, 10%);
@@ -39,7 +39,7 @@
   }
 
   &.btn-warning {
-    @include set-background($warning-color);
+    //@include set-background($warning-color);
     border: 1px solid $warning-color;
     &:hover {
       background-color: lighten($warning-color, 10%);
@@ -47,7 +47,7 @@
   }
 
   &.btn-danger {
-    @include set-background($danger-color);
+    //@include set-background($danger-color);
     border: 1px solid $danger-color;
     &:hover {
       background-color: lighten($danger-color, 10%);
