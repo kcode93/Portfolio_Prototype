@@ -1,0 +1,56 @@
+//global-button class
+.btn {
+  display: inline-block;
+  background-color: $light-color;
+  color: $dark-color;
+  padding: 0.4rem 1.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  text-decoration: none;
+  &:hover {
+    background-color: lighten($dark-color, 20%);
+    color: $light-color;
+  }
+
+  &.btn-primary {
+    @include set-background($primary-color);
+    border: 1px solid $primary-color;
+    &:hover {
+      background-color: lighten($primary-color, 5%);
+    }
+  }
+
+  &.btn-dark {
+    @include set-background($dark-color);
+    border: 1px solid $dark-color;
+    &:hover {
+      background-color: lighten($dark-color, 10%);
+    }
+  }
+
+  &.btn-success {
+    @include set-background($success-color);
+    border: 1px solid $success-color;
+    &:hover {
+      background-color: lighten($success-color, 10%);
+    }
+  }
+
+  &.btn-warning {
+    @include set-background($warning-color);
+    border: 1px solid $warning-color;
+    &:hover {
+      background-color: lighten($warning-color, 10%);
+    }
+  }
+
+  &.btn-danger {
+    @include set-background($danger-color);
+    border: 1px solid $danger-color;
+    &:hover {
+      background-color: lighten($danger-color, 10%);
+    }
+  }
+}
