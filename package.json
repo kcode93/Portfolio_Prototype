@@ -1,0 +1,19 @@
+{
+  "name": "portfolilo",
+  "version": "1.0.0",
+  "description": "my portfolio prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcode93/Portfolio_Prototype.git"
+  },
+  "author": "Kenneth Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kcode93/Portfolio_Prototype/issues"
+  },
+  "homepage": "https://github.com/kcode93/Portfolio_Prototype#readme"
+}
