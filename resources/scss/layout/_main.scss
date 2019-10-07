@@ -12,4 +12,18 @@ main{
             }
         }
     }
+
+    &#home{
+        overflow: hidden; 
+    }
+
+    .lastName{
+        color: $secondary-color;
+    }
+
+    .logo-brand{
+        margin-top: $splash_topMargin;
+        display: flex;
+        align-items: center;
+    }
 }
