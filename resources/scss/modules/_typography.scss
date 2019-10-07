@@ -3,31 +3,32 @@
 
 //text-styles
 .x-large {
+  font-size: 6rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.lead {
   font-size: 4rem;
   line-height: 1.2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .large {
   font-size: 3rem;
-  line-height: 1.2rem;
-  margin-bottom: 2rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .medium {
   font-size: 2rem;
   line-height: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.lead {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .small {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
 }
 
 .text-primary {
