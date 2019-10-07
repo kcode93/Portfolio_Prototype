@@ -5,5 +5,10 @@ html{
 body{
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
+    background-color: $dark-color;
 }
 
+a{
+    color: $white-color;
+    text-decoration: none;
+}
