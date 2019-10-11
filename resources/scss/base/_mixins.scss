@@ -1,3 +1,15 @@
 @mixin easeIn_Out{
+    //sets transition for social media links
     transition: all 0.5s ease-in-out;
+}
+
+@mixin setBackgroundImg(){
+    @if $showHomeImg {
+        &#bg-img {
+            background: $homeBackgroundImg;
+            background-attachment: fixed;
+            background-size: cover;
+            
+        }
+    }
 }
