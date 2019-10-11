@@ -1,3 +1,7 @@
+body{
+    @include setBackgroundImg;
+}
+
 main{
     padding: 4rem;
     height: 100%;
