@@ -10,7 +10,8 @@
             background-attachment: fixed;
             background-size: cover;
         }
-
+        
+        //adds an overlay to the img
         &:after{
             content: '';
             position: absolute;
