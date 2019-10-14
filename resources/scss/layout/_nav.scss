@@ -6,3 +6,11 @@
     cursor: pointer;
     @include easeIn_Out;
 }
+
+.btn-line{
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background-color: $white-color;
+    @include easeIn_Out;
+}
