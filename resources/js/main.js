@@ -5,14 +5,14 @@ let showMenu = false;
 const btnMenu = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menuBrand = document.querySelector('.menu-brand');
-const menuNav = document.querySelector('.btn-nav');
+const menuNav = document.querySelector('.menu-nav');
 const navItem = document.querySelectorAll('.nav-item');
 
 //event listeners
 btnMenu.addEventListener('click', toggleMenu);
 
 //functions
-fucntion toggleMenu(){
+function toggleMenu(){
     if(!showMenu){
         btnMenu.classList.add('close');
         menu.classList.add('show');
