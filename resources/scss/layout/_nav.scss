@@ -60,7 +60,7 @@
 
     //adds a transition effect when menu shows on screen
     &-nav{
-        background: darken($primary-color, 5);
+        background: darken($primary-color, 3);
         transform: translate3d(0,-100%,0);
         @include easeIn_Out;
 
@@ -70,7 +70,7 @@
     }
 
     &-brand{
-        background: darken($primary-color, 5);
+        background: darken($primary-color, 3);
         transform: translate3d(0,100%,0);
         @include easeIn_Out;
 
@@ -100,6 +100,10 @@
         &.show{
             transform: translate3d(0,0,0);
         }
+
+        &.active{
+            background-color: lighten($primary-color, 3);
+        }
     }
 
     .nav-link{
@@ -109,9 +113,9 @@
         padding: 1rem;
         font-weight: bold;
         //@include easeIn_Out;
-
+        
         &:hover{
-            background-color: lighten($primary-color, 3);
+            color: $warning-color;
         }
     }
 

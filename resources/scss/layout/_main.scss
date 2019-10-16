@@ -11,7 +11,7 @@ main{
         a{
             padding: 0.4rem;
             &:hover{
-                color: $secondary-color;
+                color: $primary-color;
                 @include easeIn_Out();
             }
         }
