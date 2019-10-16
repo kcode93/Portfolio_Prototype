@@ -69,6 +69,16 @@
         }
     }
 
+    &-brand{
+        background: darken($primary-color, 9);
+        transform: translate3d(0,100%,0);
+        @include easeIn_Out;
+
+        &.show{
+            transform: translate3d(0,0,0);
+        }
+    }
+
 
 }
 
