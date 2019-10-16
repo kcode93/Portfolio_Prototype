@@ -1,4 +1,5 @@
 .menu-btn{
+    //creates the burger menu and fixes it at the top right corner
     position: absolute;
     z-index: 3;
     right: 35px;
@@ -13,7 +14,8 @@
         background-color: $white-color;
         @include easeIn_Out;
     }
-
+    
+    //adds the rotaing effect and changes into X
     &.close{
         transform: rotate(180deg);
         .btn-line{
@@ -31,6 +33,32 @@
             }
         }
     }
+
+}
+
+//creates the menu overleay
+.menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+
+    &.show{
+        visibility: visible;
+    }
+
+    &-brand, &-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        width: 50%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+
 
 }
 
