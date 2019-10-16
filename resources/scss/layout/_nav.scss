@@ -60,7 +60,7 @@
 
     //adds a transition effect when menu shows on screen
     &-nav{
-        background: darken($primary-color, 9);
+        background: darken($primary-color, 5);
         transform: translate3d(0,-100%,0);
         @include easeIn_Out;
 
@@ -70,14 +70,26 @@
     }
 
     &-brand{
-        background: darken($primary-color, 9);
+        background: darken($primary-color, 5);
         transform: translate3d(0,100%,0);
         @include easeIn_Out;
 
         &.show{
             transform: translate3d(0,0,0);
         }
+
+        .profile{
+            width: 250px;
+            height: 250px;
+            background-image: url(../img/profilePic.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: none;
+            border-radius: 50%;
+            border: 3px solid $white-color;
+        }
     }
+
 
 
 }
