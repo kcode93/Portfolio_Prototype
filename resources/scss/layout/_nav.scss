@@ -58,6 +58,17 @@
         overflow: hidden;
     }
 
+    //adds a transition effect when menu shows on screen
+    &-nav{
+
+        background: darken($primary-color, 9);
+        transform: translate3d(0,100%,0);
+        @include easeIn_Out;
+
+        &.show{
+            transform: translate3d(0,0,0,0);
+        }
+    }
 
 
 }
