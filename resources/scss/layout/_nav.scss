@@ -112,7 +112,6 @@
         text-transform: uppercase;
         padding: 1rem;
         font-weight: bold;
-        //@include easeIn_Out;
         
         &:hover{
             color: $warning-color;
