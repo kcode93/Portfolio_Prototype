@@ -3,15 +3,11 @@ html{
 }
 
 body{
+    @include setBackgroundImg;
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
     background-color: $dark-color;
     color: $white-color;
-}
-
-.logo{
-    width: 5rem;
-    height: 5rem;
 }
 
 a{
