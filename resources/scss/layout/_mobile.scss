@@ -4,16 +4,16 @@
 }
 
 //desktop and laptops
-@include xlDevice{
+@include lgDevice{
     
 }
 
 //tables and small devices
-@include xlDevice{
+@include mdDevice{
     
 }
 
 //smartphones
-@include xlDevice{
+@include smDevice{
     
 }
