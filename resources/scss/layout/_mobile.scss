@@ -10,10 +10,22 @@
 
 //tables and small devices
 @include mdDevice{
-    
+    #home{
+        align-items: center;
+        text-align: center;
+
+        .lead{
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 //smartphones
 @include smDevice{
-    
+    #home{
+        .logo-brand{
+            margin-top: 10vh;
+        }
+    }
 }
