@@ -1,8 +1,9 @@
+//sets transition for social media links
 @mixin easeIn_Out{
-    //sets transition for social media links
     transition: all 0.5s ease-in-out;
 }
 
+//sets the background image and the background image overlay
 @mixin setBackgroundImg(){
     @if $showHomeImg {
         &#bg-img {
@@ -22,5 +23,30 @@
             z-index: -1;
             background: rgba($black-color, $bakcgroundImgOpacity);
         }
+    }
+}
+
+//responsive media queries
+@mixin smDevice{
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mdDevice{
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin lgDevice{
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+        @content;
+    }
+}
+
+@mixin xlDevice{
+    @media screen and (min-width: 1171px) {
+        @content;
     }
 }
